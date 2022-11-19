@@ -1,7 +1,7 @@
-controllers:
-    resource: ../src/Controller/
-    type: annotation
+module_a:
+    resource: 'routes/module_a.yaml'
+    prefix: 'a'
 
-kernel:
-    resource: ../src/Kernel.php
-    type: annotation
+module_b:
+    resource: 'routes/module_b.yaml'
+    prefix: 'b'
