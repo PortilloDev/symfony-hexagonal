@@ -2,3 +2,4 @@
 .env.nginx.dist
 .data/*
 log/*
+.env
