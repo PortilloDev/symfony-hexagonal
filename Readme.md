@@ -15,7 +15,17 @@ $ docker exec -ti symfony_php bash
 ```bash
 $ docker exec -ti symfony_php bash
 
-# composer install
+## It's not necesary
+ composer create-project symfony/skeleton: new_app
+ 
+## move file to root path
+ mv replace new_app/* .
+
+## It's necesary
+composer install
+
+
+```
 ```
 composer create-project symfony/skeleton: my_project_directory
 
