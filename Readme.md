@@ -1,22 +1,27 @@
-## Levantar contenedores
+## Up containers
 
 ```bash
 $ docker-compose up -d
 ```
 
-## Acceder al contenedor de PHP
+## Access the PHP container
 
 ```bash
 $ docker exec -ti symfony_php bash
 ```
 
-## Instalar dependencias de PHP dentro del contenedor
+## Install dependencies in the PHP container
 
 ```bash
 $ docker exec -ti symfony_php bash
 
-# composer install
-```
-composer create-project symfony/skeleton: my_project_directory
+## It's not necesary
+ composer create-project symfony/skeleton: new_app
 
-Para entrar a ver el proyecto accede a [http://localhost:80](http://localhost:80)
+## It's necesary
+composer install
+
+
+```
+
+To enter to see the access to the project [http://localhost:8000](http://localhost:8000)
